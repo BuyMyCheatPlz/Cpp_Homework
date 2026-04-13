@@ -7,9 +7,9 @@
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/实验2.cpp",
+                "${workspaceFolder}/Homework_years.cpp",
                 "-o",
-                "${workspaceFolder}/实验2"
+                "${workspaceFolder}/Homework_years"
             ],
             "group": {
                 "kind": "build",

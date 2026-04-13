@@ -8,7 +8,7 @@
             "name": "Run C++",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/实验2",
+            "program": "${workspaceFolder}/Homework_years",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
