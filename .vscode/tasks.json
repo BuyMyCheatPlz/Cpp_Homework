@@ -4,17 +4,35 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "g++",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
                 "-g",
-                "${workspaceFolder}/Homework_years.cpp",
+                "-std=c++11",
+                "-static",
+                "-I",
+                "C:/Eigen",
+                "${workspaceFolder}/Eigen_Project/main.cpp",
+                "${workspaceFolder}/Eigen_Project/matrix_ops.cpp",
+                "${workspaceFolder}/Eigen_Project/eigen_verify.cpp",
                 "-o",
-                "${workspaceFolder}/Homework_years"
+                "${workspaceFolder}/Eigen_Project/matrix.exe"
             ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+                }
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "presentation": {
+                "reveal": "silent",
+                "clear": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
