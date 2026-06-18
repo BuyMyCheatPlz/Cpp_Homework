@@ -59,6 +59,60 @@
             "problemMatcher": [
                 "$gcc"
             ]
+        },
+        {
+            "label": "build-fifth-homework",
+            "type": "shell",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-g",
+                "-std=c++11",
+                "-static",
+                "${workspaceFolder}/Fifth_Homework/MyString.cpp",
+                "${workspaceFolder}/Fifth_Homework/main.cpp",
+                "-o",
+                "${workspaceFolder}/Fifth_Homework/mystring.exe"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+                }
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "clear": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build-forth-homework",
+            "type": "shell",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-g",
+                "-std=c++11",
+                "-static",
+                "${workspaceFolder}/Forth_Homework/MyString.cpp",
+                "${workspaceFolder}/Forth_Homework/main.cpp",
+                "-o",
+                "${workspaceFolder}/Forth_Homework/forth.exe"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}"
+                }
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent",
+                "clear": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
